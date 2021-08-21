@@ -3,24 +3,24 @@ using namespace std;
 
 int main(){
 
-//array size taken as input and stored in m
+#### array size taken as input and stored in m
 
 long long int m;cin>>m;
 
-//array of size n is declared dynamically
+#### array of size n is declared dynamically
 
 int \*arr = new int[m];
 
-//declare var to store count of 0,1,2
+#### declare var to store count of 0,1,2
 
 int zero=0,one=0,two=0;
 
-//for loop to take in array elements 
+#### for loop to take in array elements 
 
 for(long long int i=0;i<m;i++){
 cin>>arr[i];
 
-//increment variable acc to input 
+#### increment variable acc to input 
 
 if(arr[i]==0)
 zero++;
@@ -30,7 +30,7 @@ if(arr[i]==2)
 two++;
 }
 
-//fill the array using loops
+#### fill the array using loops
 
 long long int j=-1;
 for(long long int i=1;i<=zero;i++){
@@ -46,7 +46,7 @@ j++;
 arr[j]=2;
 }
 
-//output the array elements in sorted order
+#### output the array elements in sorted order
 
 for(long long int i=0;i<m;i++){
 cout<<arr[i]<<" ";

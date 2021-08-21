@@ -3,21 +3,21 @@ using namespace std;
 
 int main(){
 
-//array size taken as input and stored in n
+#### array size taken as input and stored in n
 
 long long int m;cin>>m;
 
-//array of size n is declared dynamically
+#### array of size n is declared dynamically
 
 int \* arr = new int[m];
 
-//for loop to take in array elements  
+#### for loop to take in array elements  
 
 for(long long int i=0;i<m;i++){
 cin>>arr[i];
 }
 
-//nested for loop to bubble sort the elements
+#### nested for loop to bubble sort the elements
 
 for(long long int i=0;i<m;i++){
 for(long long int j=i+1;j<m;j++){
@@ -29,7 +29,7 @@ arr[j]=temp;
 }
 }
 
-//for loop to output array elements
+#### for loop to output array elements
 
     for(long long int i=0;i<m;i++){
     cout<<arr[i]<<" ";
