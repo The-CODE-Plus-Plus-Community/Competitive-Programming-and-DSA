@@ -9,7 +9,7 @@ long long int n;cin>>n;
 
 #### set is declared
 
-set<long long int> st;
+set< long long int > st;
 
 #### for loop to take in elements and store in set
 
@@ -21,7 +21,7 @@ st.insert(x);
 #### take k as input
 
 long long int k;cin>>k;
-set<long long int>::iterator itr = st.begin();
+set< long long int >::iterator itr = st.begin();
 
 #### st.begin() points to the first element in set.
 
